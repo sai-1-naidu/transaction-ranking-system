@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 
 function App() {
-  const API = "http://127.0.0.1:8000";
+  const API = "https://transaction-ranking-api-zz3n.onrender.com";
 
   const [transaction, setTransaction] = useState({
     user_id: "",
